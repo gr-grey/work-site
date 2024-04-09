@@ -4,7 +4,7 @@ title: Work Stuff
 
 Rebuild and add my old writings back, one bit at a time.
 
-Newly setup log at [[quartz website setup]].
+New setup log at [[quartz website setup]].
 
 
 > [!todo] Move my old blogs  
