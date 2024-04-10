@@ -2,7 +2,7 @@
 title: motif clustering for coloring
 date: 2024-04-09
 description: "A motif clustering scheme to assign similar motifs with similar colors."
-tags: -genomics
+tags: genomics
 ---
 
 What's a motif?
