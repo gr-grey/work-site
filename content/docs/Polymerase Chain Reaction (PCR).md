@@ -1,6 +1,6 @@
 ---
-title: Untitled
-date: 2024-04-09
+title: Polymerase Chain Reaction (PCR)
+date: 2024-04-12
 description: ""
 tags:
 ---

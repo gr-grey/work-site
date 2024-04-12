@@ -3,7 +3,7 @@ title: Introduction to Genomics
 date: 2023-03-06
 description: "Course notes"
 tags: 
-  - course
+  - courses
   - genomics
 ---
 
@@ -85,7 +85,7 @@ Genes
 ----
 A very small portion (~2%) of the 3 billion bp genome encodes protein. These sequence segments are called genes or protein coding genes.
 
-- [[Gene|More on exons, introns, untranslated regions (UTR), and splicing]]
+- More on [[Gene|exons, introns, untranslated regions (UTR), and splicing]]
 
 Intergenic DNA: junk DNA (not really)
 ----
@@ -104,7 +104,7 @@ Stats & details of the human genome
 - Humans have 2 sets of 23 chromosomes (23 pairs). 22 pairs of **autosomes** and 1 pair of sex chromosomes.
 - The 22 autosomes are numbered according to their length: chromosome 1 is the longest (~250 Mb), and chromosome 21 is the shortest. Chromosome 22 was thought to be shorter than 21 at the time, when the length was determined by staining the chromosomes and look at them under microscopy, which is quite imprecise and chromosome 21 was actually slightly smaller than 22.
 
-[[Genetic Mutations|More one genetic mutations]]: SNPs (single letter change), INDELs(insert deletion) and de novo mutations (DNM).
+More on [[Genetic Mutations|genetic mutations]]: SNPs (single letter change), INDELs(insert deletion) and de novo mutations (DNM).
 
 **Stats summary**
 
@@ -135,7 +135,7 @@ For a gene to be "turned on", aka, making proteins it codes, a switch usually ne
 
 Robert Sapolsky once said that genes are like recipes, that genes determine very little - it's the regulation that matters. Saying that a gene knows when to express is to say that a cake recipe knows when you're gonna make the cake.
 
-[[Epigenetics|More on epigenetics]] 
+More on [[Epigenetics|epigenetics]] 
 - Transcription factors
 - Regulatory regions: promoters, activators, enhancers, repressors and silencers
 - Histones 
