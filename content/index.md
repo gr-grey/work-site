@@ -10,7 +10,7 @@ New setup log at [[quartz website setup]].
 > [!todo] Move my old blogs  
 >  - [Grey’s Site - Grey’s Site (gr-grey.github.io)](https://gr-grey.github.io/proto1/)
 > - [ ] NGS notes
-> 	- [ ] Intro to genomics
+> 	- [x ] Intro to genomics
 > 	- [ ] Algorithms for DNA Sequencing
 > 	- [ ] Genomic file formats & command lines & software
 > 		- [ ] Unix stuff
