@@ -2,7 +2,7 @@
 title: git
 date: 2024-04-11
 description: "Git is a beautiful tool that really tries to hide itself by failing fantastically at explaining its functionality."
-tags: -tools
+tags: tools
 ---
 
 ---
