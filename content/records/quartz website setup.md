@@ -5,8 +5,9 @@ description: "The equivalence of forking multiple quartz."
 tags: records
 ---
 
-If we want multiple quartz websites (e.g. one for serious stuff one for fun), we need multiple repos.
-But github does not allow forking a repo twice, so here's a workaround.
+To get multiple quartz websites (e.g. one for serious stuff one for fun), we need multiple repos.
+
+Github does not allow forking a repo twice, But there's a workaround.
 
 ```bash
 git clone https://github.com/jackyzha0/quartz.git gr-grey.xyz
@@ -26,7 +27,25 @@ npx quartz build --serve --port 8081
 npx quartz build --serve --port 8081 --wsPort 3002
 ```
 
-Basically by cloning the repo and reset origin, we link it to our own github account, and by setting upstream we can sync it when quartz version is updated.
+By cloning the repo and reset origin, the repo is linked to my own github account, and by setting upstream we can sync it when quartz version is updated.
+
+To host on github. Follow [quartz instruction](https://quartz.jzhao.xyz/hosting).
+ -  In `quartz/.github/workflows/deploy.yml`, `.github` is in the top level, as my folder wasn't called quartz.
+ -  The deploy.yml file might need to be updated later.
+
+Sync repo with upstream:
+
+```bash
+git fetch upstream
+git merge upstream/v4
+
+# if any conflict, change the file
+git add conflict_file
+
+git commit -m "merge updates from upstream v4"
+
+git push origin v4
+```
 
 
 Archive (no longer useful)
